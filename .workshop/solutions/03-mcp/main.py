@@ -39,11 +39,6 @@ def main() -> None:
             "budget awareness, and safety-minded tips. "
             "Use your tools for weather, local time, and currency conversion "
             "when the traveler asks time-sensitive questions. Keep answers brief. "
-            "Use the OctoTrip Flights MCP server when the traveler asks about "
-            "flights, routes, fares, or schedules; pass IATA airport codes and a "
-            "departure date (YYYY-MM-DD) — if the traveler doesn't give one, call "
-            "get_local_time and use the date part of its iso_time as today's date — "
-            "and summarize the options you find."
         ),
         tools=tools,
         default_options={"store": False},
