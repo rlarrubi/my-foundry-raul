@@ -37,7 +37,7 @@ def main() -> None:
                 "departure date, call get_local_time and use the date part of its "
                 "iso_time as today's date), for web search of current "
                 "travel advisories and events, and for Code Interpreter to analyze an "
-                "uploaded itinerary.csv (budget totals, currency conversion, charts)."
+                "uploaded itinerary.csv (budget totals, currency conversion, charts,)."
             ),
             
             tools=[get_weather, get_local_time, convert_currency, toolbox],  # <-- add this line
